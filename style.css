@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url(img/donation13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.center h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.center p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 15px 0 35px;
+}
+.btn{
+    text-decoration: none;
+    padding: 8px 12px;
+    background: #FF5959;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+#amount-container{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+
+}
+#amount-container .center h1,#amount-container .center p,#plan-container .center h1,#plan-container .center p{
+    color: black;
+
+}
+#amount-container .center h1,#plan-container .center h1{
+    font-size: 45px;
+    line-height: 54px;
+}
+#ammount{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#ammount div{
+    width: 15%;
+    background-color: #fafafa;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+#red{
+    border: 2px solid tomato;
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    width: 100%;
+    margin: 80px 0 20px;
+    text-align: center;
+}
+#plan-container{
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+}
+#plan{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#plan div{
+    width: 30%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 5px;
+    padding: 15px 10px 10px 5px;
+}
+#plan p{
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+#plan h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    margin: 10px 0 0;
+}
+#blue{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+#pink{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+#yeallow{
+    background-color: yellowgreen;
+}
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: #fafafa;
+    text-align: center;
+}
